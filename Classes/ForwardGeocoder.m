@@ -81,7 +81,7 @@
 		self.results = parser.results;
 		self.coordinate =  parser.coordinate;
 		self.zipCode = parser.zipCode;
-		self.country = [StringUtility localizedCountryName:parser.country];
+		self.country = parser.country;
 		self.countryID = [StringUtility localizedCountryID:parser.country];
 	 
 	}

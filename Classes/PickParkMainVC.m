@@ -44,6 +44,7 @@
 */
 
 -(IBAction) clickParkButton:(id)sender{
+
 #if TARGET_IPHONE_SIMULATOR
 	//*********For Simulation of Localization ****************  	
 	
@@ -57,10 +58,9 @@
 	CLLocation *location =[locationManager location];
 	[locationManager release];
 #endif
-	
-
     [self convertCoordinate2Address:location.coordinate];
-	[self showLocationOnMap];	
+	_center= location.coordinate;
+	[self setRegionOnMap:_center];
 }
 
 
@@ -88,35 +88,7 @@
 
 	
 }
-
-
-//- (void)showLocationOnMap{
-//	
-//	NSString *zipcode = _zipcodeTxtField.text;
-//	
-//	if( _geoService )
-//	{
-//		[_geoService cancelRequest];
-//		[_geoService release];
-//	}
-//	
-//	_geoService = [[SCMobileHubResource alloc] initWithServiceName:@"geo" version:@"1.0"];
-//	XMOption *countryOption=[[_countryParameter selectedOptions] anyObject];
-//	
-//	if([zipcode length]>0){
-//		_geoService.urlParameters =[NSString stringWithFormat:@"countryId=%@&zip=%@",countryOption.value,zipcode];  
-//		
-//	}else  {
-//		_geoService.urlParameters =[NSString stringWithFormat:@"countryId=%@",countryOption.value];  
-//		
-//	}
-//	
-//	NSLog(@"URLParameter ::::::: %@",_geoService.urlParameters);
-//	_geoService.delegate = self;
-//	[_geoService get];
-//	
-//	[_zipcodeTxtField resignFirstResponder];
-//}
+ 
 
 -(void) setRegionOnMap:(CLLocationCoordinate2D ) centerpoint{
 	
@@ -124,7 +96,6 @@
 		[_mapView removeAnnotation:_locAnnotation];
 	}
 	_center = centerpoint;
-
 	_locAnnotation = [[LocAnnotation alloc] init];
 	_locAnnotation.coordinate =	centerpoint;
 	[_mapView addAnnotation:_locAnnotation];
@@ -140,7 +111,7 @@
 	// save current ui state
 	int radius= 1000 * 300;
 	MKCoordinateRegion region;
-	region = MKCoordinateRegionMakeWithDistance(_center, radius * 2, radius * 2);
+	region = MKCoordinateRegionMakeWithDistance(_center, radius *8, radius * 8);
 	
 	
 	if((_mapView != nil)) {
@@ -194,7 +165,7 @@
 
 
 -(void) forwardGeocoderFoundLocation{
-	NSLog(@"found location!!!!!!!!!!");
+	NSLog(@"found location:::: %@ , %@ ",_forwardGeocoder.zipCode, _forwardGeocoder.country );
 }
 
 

@@ -153,8 +153,8 @@
 			}
 			
 			if([typesArray containsObject:@"country"]  && [country length]<=0){
-				country = currentAddressComponent.shortName;
-				NSLog(@"County ===: %@",currentAddressComponent.shortName);
+				country = currentAddressComponent.longName;
+				NSLog(@"County ===: %@",currentAddressComponent.longName);
 			}
 
 			currentAddressComponent.types = typesArray;
