@@ -9,14 +9,14 @@
 #import "PickParkMainVC.h"
 @interface PickParkMainVC()
 -(void) convertCoordinate2Address: (CLLocationCoordinate2D) location;
-
+-(void) convertAddress2Coordinate:(NSString *) address;
 -(void) setRegionOnMap:(CLLocationCoordinate2D ) centerpoint;
 -(void)applySearchRadiusSettings;
 @end
 
 
 @implementation PickParkMainVC
-@synthesize mapView=_mapView;
+@synthesize mapView=_mapView , searchBar = _searchBar , searchController = _searchController;
 // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
 /*
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
@@ -47,7 +47,6 @@
 
 #if TARGET_IPHONE_SIMULATOR
 	//*********For Simulation of Localization ****************  	
-	
 	CLLocation *location = [[[CLLocation alloc] initWithLatitude:50.51 longitude:4.21] autorelease];
 #else
 	CLLocationManager *locationManager = [[CLLocationManager alloc] init];
@@ -59,13 +58,13 @@
 	[locationManager release];
 #endif
     [self convertCoordinate2Address:location.coordinate];
-	_center= location.coordinate;
-	[self setRegionOnMap:_center];
+	//_center= location.coordinate;
+//	[self setRegionOnMap:_center];
 }
 
 
 -(IBAction) clickPickButton:(id)sender{
-
+	
 }
 /***
  *  convert coordinate to zip code and country name
@@ -80,40 +79,47 @@
 	
 	NSString *searchquery =[NSString stringWithFormat:@"%f,%f",location.latitude,location.longitude];
 	
-	
-	
 	// Forward degeocode!
 	[_forwardGeocoder findLocation:searchquery isDeGeoCode:YES];
- 	
 
-	
 }
- 
+
+
+/****
+ * Convert address to coordinate
+ ***/
+-(void) convertAddress2Coordinate:(NSString *) address{
+	if(_forwardGeocoder == nil)
+	{
+		_forwardGeocoder = [[ForwardGeocoder alloc] initWithDelegate:self];
+	}
+	NSString *searchquery =[NSString stringWithFormat:@"%@",address];	
+	// Forward degeocode!
+	[_forwardGeocoder findLocation:searchquery isDeGeoCode:NO];
+}
 
 -(void) setRegionOnMap:(CLLocationCoordinate2D ) centerpoint{
 	
-	if(_locAnnotation !=nil){
-		[_mapView removeAnnotation:_locAnnotation];
-	}
+//	if(_locAnnotation !=nil){
+//		[_mapView removeAnnotation:_locAnnotation];
+//	}
 	_center = centerpoint;
 	_locAnnotation = [[LocAnnotation alloc] init];
 	_locAnnotation.coordinate =	centerpoint;
-	[_mapView addAnnotation:_locAnnotation];
-
-	
-	
+	[_mapView addAnnotation:_locAnnotation];	
 	[self applySearchRadiusSettings];
 	
 }
 
+
+
 -(void)applySearchRadiusSettings {
 	
 	// save current ui state
-	int radius= 1000 * 300;
+	int radius= 1000;
 	MKCoordinateRegion region;
-	region = MKCoordinateRegionMakeWithDistance(_center, radius *8, radius * 8);
-	
-	
+	region = MKCoordinateRegionMakeWithDistance(_center, radius *15, radius * 15);
+		
 	if((_mapView != nil)) {
 		
         [_mapView setRegion:region animated:NO];
@@ -166,9 +172,20 @@
 
 -(void) forwardGeocoderFoundLocation{
 	NSLog(@"found location:::: %@ , %@ ",_forwardGeocoder.zipCode, _forwardGeocoder.country );
+	_center= _forwardGeocoder.coordinate;
+	[self setRegionOnMap:_center];
 }
 
+- (void)searchBarSearchButtonClicked:(UISearchBar *)thesearchBar{
+	[_searchBar resignFirstResponder];
+}
 
+- (void)searchBarTextDidEndEditing:(UISearchBar *)thesearchBar{
+	NSString *addresstring =[_searchBar text];
+	addresstring=[addresstring stringByReplacingOccurrencesOfString:@" " withString:@"+"];
+	addresstring=[addresstring stringByReplacingOccurrencesOfString:@"," withString:@"+"];
+	[self convertAddress2Coordinate:addresstring];
+}
 
 - (void)dealloc {
     [super dealloc];

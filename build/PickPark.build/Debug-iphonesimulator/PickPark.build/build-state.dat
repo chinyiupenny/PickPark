@@ -1,12 +1,13 @@
 TPickPark
 v7
 r0
-t327541576.364188
+t327721997.331909
 cCheck dependencies
 cProcessInfoPlistFile /Users/chauchinyiu/development/PickPark/build/Debug-iphonesimulator/PickPark.app/Info.plist PickPark-Info.plist
 cCompileXIB /Users/chauchinyiu/development/PickPark/MainWindow.xib
 cCompileXIB /Users/chauchinyiu/development/PickPark/Classes/PickParkMainVC.xib
-cProcessPCH /var/folders/ht/htkjuLauFJePAer-N6uP2U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PickPark_Prefix-efhbxzalvrporfdzgkdecrhpzdmp/PickPark_Prefix.pch.gch PickPark_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/ht/htkjuLauFJePAer-N6uP2U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PickPark_Prefix-fiffluzgxkhcqeawayrcftqqkmgd/PickPark_Prefix.pch.gch PickPark_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cDataModelCompile /Users/chauchinyiu/development/PickPark/build/Debug-iphonesimulator/PickPark.app/storelocation.mom /Users/chauchinyiu/development/PickPark/Classes/storelocation.xcdatamodel
 cCompileC build/PickPark.build/Debug-iphonesimulator/PickPark.build/Objects-normal/i386/main.o /Users/chauchinyiu/development/PickPark/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/PickPark.build/Debug-iphonesimulator/PickPark.build/Objects-normal/i386/PickParkAppDelegate.o /Users/chauchinyiu/development/PickPark/Classes/PickParkAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/PickPark.build/Debug-iphonesimulator/PickPark.build/Objects-normal/i386/PickParkMainVC.o /Users/chauchinyiu/development/PickPark/Classes/PickParkMainVC.m normal i386 objective-c com.apple.compilers.gcc.4_2
@@ -82,6 +83,71 @@ N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2
 c000000004CB3FA080000000000001ADD
 t1286863368
 s6877
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk
+c000000004D5C9B4E0000000000000110
+t1297914702
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.h
+c000000004D54D01A000000000000046B
+t1297403930
+s1131
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004D54CFFA00000000002999B0
+t1297403898
+s2726320
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c000000004D54DEBC00000000000778F0
+t1297407676
+s489712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004D54CFE5000000000029DA70
+t1297403877
+s2742896
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004D54CFB80000000000001466
+t1297403832
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.h
+c000000004D5C9BDB00000000000002FE
+t1297914843
+s766
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/MapKit.framework/MapKit
+c000000004D5C9BEB000000000018CAB0
+t1297914859
+s1624752
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004D54D2DD00000000000000C4
+t1297404637
+s196
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004D54D4200000000000162C50
+t1297404960
+s1453136
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004D5615B40000000000000AA1
+t1297487284
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004D5616030000000000766870
+t1297487363
+s7759984
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/Availability.h
+c000000004D4F7A2B0000000000001B19
+t1297054251
+s6937
 
 N/Users/chauchinyiu/Desktop/PickPark/Classes/AddressComponent.h
 c000000004DCA181800000000000001BA
@@ -474,10 +540,22 @@ s463
 i<MapKit/MapKit.h>
 
 N/Users/chauchinyiu/development/PickPark/Classes/LocAnnotation.m
-c000000004DCA18180000000000000344
-t1305090072
-s836
+c000000004DD70CFC00000000000002C6
+t1305939196
+s710
 i"LocAnnotation.h"
+
+N/Users/chauchinyiu/development/PickPark/Classes/Location.h
+c000000004DD908D100000000000000D8
+t1306069201
+s216
+i<Foundation/Foundation.h>
+
+N/Users/chauchinyiu/development/PickPark/Classes/Location.m
+c000000004DD908D100000000000000C0
+t1306069201
+s192
+i"Location.h"
 
 N/Users/chauchinyiu/development/PickPark/Classes/MapCell.h
 c000000004DCA181800000000000001C5
@@ -494,6 +572,18 @@ s1242
 i"MapCell.h"
 i"QuartzCore/QuartzCore.h"
 
+N/Users/chauchinyiu/development/PickPark/Classes/ParkObject.h
+c000000004DD9424C00000000000001B1
+t1306083916
+s433
+i<CoreData/CoreData.h>
+
+N/Users/chauchinyiu/development/PickPark/Classes/ParkObject.m
+c000000004DD9424C0000000000000115
+t1306083916
+s277
+i"ParkObject.h"
+
 N/Users/chauchinyiu/development/PickPark/Classes/PickParkAppDelegate.h
 c000000004DD18D01000000000000025A
 t1305578753
@@ -508,24 +598,24 @@ s2738
 i"PickParkAppDelegate.h"
 
 N/Users/chauchinyiu/development/PickPark/Classes/PickParkMainVC.h
-c000000004DD18E5F000000000000027F
-t1305579103
-s639
+c000000004DD718BB0000000000000387
+t1305942203
+s903
 i<UIKit/UIKit.h>
 i<MapKit/MapKit.h>
 i"ForwardGeocoder.h"
 i"LocAnnotation.h"
 
 N/Users/chauchinyiu/development/PickPark/Classes/PickParkMainVC.m
-c000000004DD5ABC700000000000013F9
-t1305848775
-s5113
+c000000004DD86C8C00000000000017CE
+t1306029196
+s6094
 i"PickParkMainVC.h"
 
 N/Users/chauchinyiu/development/PickPark/Classes/PickParkMainVC.xib
-c000000004DD5ABA9000000000000602E
-t1305848745
-s24622
+c000000004DD7209B000000000000769F
+t1305944219
+s30367
 
 N/Users/chauchinyiu/development/PickPark/Classes/RadiusLayerView.h
 c000000004DCA18180000000000000269
@@ -554,14 +644,14 @@ s694
 i<Foundation/Foundation.h>
 
 N/Users/chauchinyiu/development/PickPark/Classes/StringUtility.m
-c000000004DD18B9F0000000000001A52
-t1305578399
-s6738
+c000000004DD70D0C0000000000001439
+t1305939212
+s5177
 i"StringUtility.h"
 
 N/Users/chauchinyiu/development/PickPark/Classes/storelocation.xcdatamodel
-c000000004DD5B0710000000000000088
-t1305849969
+c000000004DD9428F0000000000000088
+t1306083983
 s136
 
 N/Users/chauchinyiu/development/PickPark/MainWindow.xib
@@ -578,11 +668,11 @@ i<Foundation/Foundation.h>
 i<UIKit/UIKit.h>
 
 N/Users/chauchinyiu/development/PickPark/build/Debug-iphonesimulator/PickPark.app
-t1305848776
-s272
+t1306029197
+s306
 
 N/Users/chauchinyiu/development/PickPark/build/Debug-iphonesimulator/PickPark.app.dSYM
-t1305848776
+t1306029197
 s102
 
 N/Users/chauchinyiu/development/PickPark/build/Debug-iphonesimulator/PickPark.app/Info.plist
@@ -594,48 +684,56 @@ t1305579034
 s1101
 
 N/Users/chauchinyiu/development/PickPark/build/Debug-iphonesimulator/PickPark.app/PickPark
-t1305848776
-s91996
+t1306029197
+s93180
 
 N/Users/chauchinyiu/development/PickPark/build/Debug-iphonesimulator/PickPark.app/PickParkMainVC.nib
-t1305848759
-s1640
+t1305980315
+s3890
 
 N/Users/chauchinyiu/development/PickPark/build/Debug-iphonesimulator/PickPark.app/PkgInfo
 t1305562271
 s8
 
 N/Users/chauchinyiu/development/PickPark/build/Debug-iphonesimulator/PickPark.app/storelocation.mom
+t1305939542
+s1506
+
+N/Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/Objects-normal/i386/AddressComponent.o
+t1305939542
+s10376
+
+N/Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/Objects-normal/i386/ContactCell.o
+t1305939542
+s50032
+
+N/Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/Objects-normal/i386/ForwardGeocoder.o
+t1305939542
+s27464
+
+N/Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/Objects-normal/i386/GoogleV3KmlParser.o
+t1305939543
+s30040
+
+N/Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/Objects-normal/i386/KmlResult.o
+t1305939543
+s31960
+
+N/Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/Objects-normal/i386/LocAnnotation.o
+t1305939543
+s14260
+
+N/Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/Objects-normal/i386/Location.o
 t2
 s0
 
-N/Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/Objects-normal/i386/AddressComponent.o
-t1305845041
-s10368
-
-N/Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/Objects-normal/i386/ContactCell.o
-t1305845041
-s49584
-
-N/Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/Objects-normal/i386/ForwardGeocoder.o
-t1305847212
-s27456
-
-N/Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/Objects-normal/i386/GoogleV3KmlParser.o
-t1305847220
-s30032
-
-N/Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/Objects-normal/i386/KmlResult.o
-t1305845042
-s31952
-
-N/Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/Objects-normal/i386/LocAnnotation.o
-t1305845042
-s14252
-
 N/Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/Objects-normal/i386/MapCell.o
-t1305845042
-s48492
+t1305939543
+s48808
+
+N/Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/Objects-normal/i386/ParkObject.o
+t2
+s0
 
 N/Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/Objects-normal/i386/PickPark.LinkFileList
 c000000004DD59D300000000000000645
@@ -643,24 +741,24 @@ t1305845040
 s1605
 
 N/Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/Objects-normal/i386/PickParkAppDelegate.o
-t1305845041
-s55676
+t1305942242
+s56172
 
 N/Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/Objects-normal/i386/PickParkMainVC.o
-t1305848776
-s54812
+t1306029197
+s62648
 
 N/Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/Objects-normal/i386/RadiusLayerView.o
-t1305845042
-s51116
+t1305939543
+s51564
 
 N/Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/Objects-normal/i386/StringUtility.o
-t1305845042
-s20912
+t1305939543
+s20916
 
 N/Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/Objects-normal/i386/main.o
-t1305845041
-s6304
+t1305939542
+s6312
 
 N/Users/chauchinyiu/development/PickPark/main.m
 c000000004DD14C97000000000000016B
@@ -676,6 +774,10 @@ N/var/folders/ht/htkjuLauFJePAer-N6uP2U+++TI/-Caches-/com.apple.Xcode.501/Shared
 t1305845041
 s15453392
 
+N/var/folders/ht/htkjuLauFJePAer-N6uP2U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PickPark_Prefix-fiffluzgxkhcqeawayrcftqqkmgd/PickPark_Prefix.pch.gch
+t1305939542
+s15814064
+
 NPickPark-Info.plist
 c000000004DD14C97000000000000038D
 t1305562263
@@ -683,7 +785,7 @@ s909
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies327541576#327541576#0(0"0(0#1#0"8623966336#0"0#
+lSLF07#2@18"Check dependencies327721997#327721997#0(0"0(0#1#0"8625010624#0"0#
 
 CCompileC build/PickPark.build/Debug-iphonesimulator/PickPark.build/Objects-normal/i386/AddressComponent.o /Users/chauchinyiu/Desktop/PickPark/Classes/AddressComponent.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s327256697.605537
@@ -699,8 +801,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@70"Compile /Users/chauchinyiu/Desktop/PickPark/Classes/AddressComponent.m327256697#327256697#0(0"0(0#0#62"/Users/chauchinyiu/Desktop/PickPark/Classes/AddressComponent.m8635551648#1933"    cd /Users/chauchinyiu/Desktop/PickPark    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/chauchinyiu/Desktop/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-generated-files.hmap -I/Users/chauchinyiu/Desktop/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-own-target-headers.hmap -I/Users/chauchinyiu/Desktop/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-all-target-headers.hmap -iquote /Users/chauchinyiu/Desktop/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-project-headers.hmap -F/Users/chauchinyiu/Desktop/PickPark/build/Debug-iphonesimulator -I/Users/chauchinyiu/Desktop/PickPark/build/Debug-iphonesimulator/include -I/Users/chauchinyiu/Desktop/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/DerivedSources/i386 -I/Users/chauchinyiu/Desktop/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/DerivedSources -include /var/folders/ht/htkjuLauFJePAer-N6uP2U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PickPark_Prefix-cegbuihyclwtvdaminigmbxedgai/PickPark_Prefix.pch -c /Users/chauchinyiu/Desktop/PickPark/Classes/AddressComponent.m -o /Users/chauchinyiu/Desktop/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/Objects-normal/i386/AddressComponent.o0#
 
 CCompileC build/PickPark.build/Debug-iphonesimulator/PickPark.build/Objects-normal/i386/AddressComponent.o /Users/chauchinyiu/development/PickPark/Classes/AddressComponent.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s327537841.687913
-e327537841.832016
+s327632342.810014
+e327632342.887431
 r1
 xCompileC
 xbuild/PickPark.build/Debug-iphonesimulator/PickPark.build/Objects-normal/i386/AddressComponent.o
@@ -709,7 +811,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@74"Compile /Users/chauchinyiu/development/PickPark/Classes/AddressComponent.m327537841#327537841#0(0"0(0#0#66"/Users/chauchinyiu/development/PickPark/Classes/AddressComponent.m8604499936#2039"    cd /Users/chauchinyiu/development/PickPark    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-generated-files.hmap -I/Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-own-target-headers.hmap -I/Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-all-target-headers.hmap -iquote /Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-project-headers.hmap -F/Users/chauchinyiu/development/PickPark/build/Debug-iphonesimulator -I/Users/chauchinyiu/development/PickPark/build/Debug-iphonesimulator/include -I/Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/DerivedSources/i386 -I/Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/DerivedSources -include /var/folders/ht/htkjuLauFJePAer-N6uP2U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PickPark_Prefix-efhbxzalvrporfdzgkdecrhpzdmp/PickPark_Prefix.pch -c /Users/chauchinyiu/development/PickPark/Classes/AddressComponent.m -o /Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/Objects-normal/i386/AddressComponent.o0#
+lSLF07#2@74"Compile /Users/chauchinyiu/development/PickPark/Classes/AddressComponent.m327632342#327632342#0(0"0(0#0#66"/Users/chauchinyiu/development/PickPark/Classes/AddressComponent.m8612771872#2039"    cd /Users/chauchinyiu/development/PickPark    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-generated-files.hmap -I/Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-own-target-headers.hmap -I/Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-all-target-headers.hmap -iquote /Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-project-headers.hmap -F/Users/chauchinyiu/development/PickPark/build/Debug-iphonesimulator -I/Users/chauchinyiu/development/PickPark/build/Debug-iphonesimulator/include -I/Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/DerivedSources/i386 -I/Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/DerivedSources -include /var/folders/ht/htkjuLauFJePAer-N6uP2U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PickPark_Prefix-fiffluzgxkhcqeawayrcftqqkmgd/PickPark_Prefix.pch -c /Users/chauchinyiu/development/PickPark/Classes/AddressComponent.m -o /Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/Objects-normal/i386/AddressComponent.o0#
 
 CCompileC build/PickPark.build/Debug-iphonesimulator/PickPark.build/Objects-normal/i386/ContactCell.o /Users/chauchinyiu/Desktop/PickPark/Classes/ContactCell.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s327256697.606637
@@ -725,8 +827,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@65"Compile /Users/chauchinyiu/Desktop/PickPark/Classes/ContactCell.m327256697#327256697#0(0"0(0#0#57"/Users/chauchinyiu/Desktop/PickPark/Classes/ContactCell.m8635467456#1923"    cd /Users/chauchinyiu/Desktop/PickPark    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/chauchinyiu/Desktop/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-generated-files.hmap -I/Users/chauchinyiu/Desktop/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-own-target-headers.hmap -I/Users/chauchinyiu/Desktop/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-all-target-headers.hmap -iquote /Users/chauchinyiu/Desktop/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-project-headers.hmap -F/Users/chauchinyiu/Desktop/PickPark/build/Debug-iphonesimulator -I/Users/chauchinyiu/Desktop/PickPark/build/Debug-iphonesimulator/include -I/Users/chauchinyiu/Desktop/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/DerivedSources/i386 -I/Users/chauchinyiu/Desktop/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/DerivedSources -include /var/folders/ht/htkjuLauFJePAer-N6uP2U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PickPark_Prefix-cegbuihyclwtvdaminigmbxedgai/PickPark_Prefix.pch -c /Users/chauchinyiu/Desktop/PickPark/Classes/ContactCell.m -o /Users/chauchinyiu/Desktop/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/Objects-normal/i386/ContactCell.o0#
 
 CCompileC build/PickPark.build/Debug-iphonesimulator/PickPark.build/Objects-normal/i386/ContactCell.o /Users/chauchinyiu/development/PickPark/Classes/ContactCell.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s327537841.832192
-e327537841.992657
+s327632342.811308
+e327632342.933517
 r1
 xCompileC
 xbuild/PickPark.build/Debug-iphonesimulator/PickPark.build/Objects-normal/i386/ContactCell.o
@@ -735,7 +837,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@69"Compile /Users/chauchinyiu/development/PickPark/Classes/ContactCell.m327537841#327537841#0(0"0(0#0#61"/Users/chauchinyiu/development/PickPark/Classes/ContactCell.m8603724672#2029"    cd /Users/chauchinyiu/development/PickPark    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-generated-files.hmap -I/Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-own-target-headers.hmap -I/Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-all-target-headers.hmap -iquote /Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-project-headers.hmap -F/Users/chauchinyiu/development/PickPark/build/Debug-iphonesimulator -I/Users/chauchinyiu/development/PickPark/build/Debug-iphonesimulator/include -I/Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/DerivedSources/i386 -I/Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/DerivedSources -include /var/folders/ht/htkjuLauFJePAer-N6uP2U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PickPark_Prefix-efhbxzalvrporfdzgkdecrhpzdmp/PickPark_Prefix.pch -c /Users/chauchinyiu/development/PickPark/Classes/ContactCell.m -o /Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/Objects-normal/i386/ContactCell.o0#
+lSLF07#2@69"Compile /Users/chauchinyiu/development/PickPark/Classes/ContactCell.m327632342#327632342#0(0"0(0#0#61"/Users/chauchinyiu/development/PickPark/Classes/ContactCell.m8612746272#2029"    cd /Users/chauchinyiu/development/PickPark    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-generated-files.hmap -I/Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-own-target-headers.hmap -I/Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-all-target-headers.hmap -iquote /Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-project-headers.hmap -F/Users/chauchinyiu/development/PickPark/build/Debug-iphonesimulator -I/Users/chauchinyiu/development/PickPark/build/Debug-iphonesimulator/include -I/Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/DerivedSources/i386 -I/Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/DerivedSources -include /var/folders/ht/htkjuLauFJePAer-N6uP2U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PickPark_Prefix-fiffluzgxkhcqeawayrcftqqkmgd/PickPark_Prefix.pch -c /Users/chauchinyiu/development/PickPark/Classes/ContactCell.m -o /Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/Objects-normal/i386/ContactCell.o0#
 
 CCompileC build/PickPark.build/Debug-iphonesimulator/PickPark.build/Objects-normal/i386/ForwardGeocoder.o /Users/chauchinyiu/Desktop/PickPark/Classes/ForwardGeocoder.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s327256782.352811
@@ -751,8 +853,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@69"Compile /Users/chauchinyiu/Desktop/PickPark/Classes/ForwardGeocoder.m327256782#327256782#0(0"0(0#0#61"/Users/chauchinyiu/Desktop/PickPark/Classes/ForwardGeocoder.m8627877024#1931"    cd /Users/chauchinyiu/Desktop/PickPark    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/chauchinyiu/Desktop/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-generated-files.hmap -I/Users/chauchinyiu/Desktop/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-own-target-headers.hmap -I/Users/chauchinyiu/Desktop/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-all-target-headers.hmap -iquote /Users/chauchinyiu/Desktop/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-project-headers.hmap -F/Users/chauchinyiu/Desktop/PickPark/build/Debug-iphonesimulator -I/Users/chauchinyiu/Desktop/PickPark/build/Debug-iphonesimulator/include -I/Users/chauchinyiu/Desktop/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/DerivedSources/i386 -I/Users/chauchinyiu/Desktop/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/DerivedSources -include /var/folders/ht/htkjuLauFJePAer-N6uP2U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PickPark_Prefix-cegbuihyclwtvdaminigmbxedgai/PickPark_Prefix.pch -c /Users/chauchinyiu/Desktop/PickPark/Classes/ForwardGeocoder.m -o /Users/chauchinyiu/Desktop/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/Objects-normal/i386/ForwardGeocoder.o0#
 
 CCompileC build/PickPark.build/Debug-iphonesimulator/PickPark.build/Objects-normal/i386/ForwardGeocoder.o /Users/chauchinyiu/development/PickPark/Classes/ForwardGeocoder.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s327540012.114083
-e327540012.285309
+s327632342.828314
+e327632342.967782
 r1
 xCompileC
 xbuild/PickPark.build/Debug-iphonesimulator/PickPark.build/Objects-normal/i386/ForwardGeocoder.o
@@ -761,7 +863,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@73"Compile /Users/chauchinyiu/development/PickPark/Classes/ForwardGeocoder.m327540012#327540012#0(0"0(0#0#65"/Users/chauchinyiu/development/PickPark/Classes/ForwardGeocoder.m8621662112#2037"    cd /Users/chauchinyiu/development/PickPark    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-generated-files.hmap -I/Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-own-target-headers.hmap -I/Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-all-target-headers.hmap -iquote /Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-project-headers.hmap -F/Users/chauchinyiu/development/PickPark/build/Debug-iphonesimulator -I/Users/chauchinyiu/development/PickPark/build/Debug-iphonesimulator/include -I/Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/DerivedSources/i386 -I/Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/DerivedSources -include /var/folders/ht/htkjuLauFJePAer-N6uP2U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PickPark_Prefix-efhbxzalvrporfdzgkdecrhpzdmp/PickPark_Prefix.pch -c /Users/chauchinyiu/development/PickPark/Classes/ForwardGeocoder.m -o /Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/Objects-normal/i386/ForwardGeocoder.o0#
+lSLF07#2@73"Compile /Users/chauchinyiu/development/PickPark/Classes/ForwardGeocoder.m327632342#327632342#0(0"0(0#0#65"/Users/chauchinyiu/development/PickPark/Classes/ForwardGeocoder.m8612653216#2037"    cd /Users/chauchinyiu/development/PickPark    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-generated-files.hmap -I/Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-own-target-headers.hmap -I/Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-all-target-headers.hmap -iquote /Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-project-headers.hmap -F/Users/chauchinyiu/development/PickPark/build/Debug-iphonesimulator -I/Users/chauchinyiu/development/PickPark/build/Debug-iphonesimulator/include -I/Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/DerivedSources/i386 -I/Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/DerivedSources -include /var/folders/ht/htkjuLauFJePAer-N6uP2U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PickPark_Prefix-fiffluzgxkhcqeawayrcftqqkmgd/PickPark_Prefix.pch -c /Users/chauchinyiu/development/PickPark/Classes/ForwardGeocoder.m -o /Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/Objects-normal/i386/ForwardGeocoder.o0#
 
 CCompileC build/PickPark.build/Debug-iphonesimulator/PickPark.build/Objects-normal/i386/GoogleV3KmlParser.o /Users/chauchinyiu/Desktop/PickPark/Classes/GoogleV3KmlParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s327271168.525325
@@ -777,8 +879,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@71"Compile /Users/chauchinyiu/Desktop/PickPark/Classes/GoogleV3KmlParser.m327271168#327271168#0(0"0(0#0#63"/Users/chauchinyiu/Desktop/PickPark/Classes/GoogleV3KmlParser.m8621910336#1935"    cd /Users/chauchinyiu/Desktop/PickPark    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/chauchinyiu/Desktop/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-generated-files.hmap -I/Users/chauchinyiu/Desktop/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-own-target-headers.hmap -I/Users/chauchinyiu/Desktop/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-all-target-headers.hmap -iquote /Users/chauchinyiu/Desktop/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-project-headers.hmap -F/Users/chauchinyiu/Desktop/PickPark/build/Debug-iphonesimulator -I/Users/chauchinyiu/Desktop/PickPark/build/Debug-iphonesimulator/include -I/Users/chauchinyiu/Desktop/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/DerivedSources/i386 -I/Users/chauchinyiu/Desktop/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/DerivedSources -include /var/folders/ht/htkjuLauFJePAer-N6uP2U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PickPark_Prefix-cegbuihyclwtvdaminigmbxedgai/PickPark_Prefix.pch -c /Users/chauchinyiu/Desktop/PickPark/Classes/GoogleV3KmlParser.m -o /Users/chauchinyiu/Desktop/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/Objects-normal/i386/GoogleV3KmlParser.o0#
 
 CCompileC build/PickPark.build/Debug-iphonesimulator/PickPark.build/Objects-normal/i386/GoogleV3KmlParser.o /Users/chauchinyiu/development/PickPark/Classes/GoogleV3KmlParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s327540020.871821
-e327540020.994635
+s327632342.829726
+e327632343.005997
 r1
 xCompileC
 xbuild/PickPark.build/Debug-iphonesimulator/PickPark.build/Objects-normal/i386/GoogleV3KmlParser.o
@@ -787,7 +889,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@75"Compile /Users/chauchinyiu/development/PickPark/Classes/GoogleV3KmlParser.m327540020#327540020#0(0"0(0#0#67"/Users/chauchinyiu/development/PickPark/Classes/GoogleV3KmlParser.m8620901280#2041"    cd /Users/chauchinyiu/development/PickPark    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-generated-files.hmap -I/Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-own-target-headers.hmap -I/Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-all-target-headers.hmap -iquote /Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-project-headers.hmap -F/Users/chauchinyiu/development/PickPark/build/Debug-iphonesimulator -I/Users/chauchinyiu/development/PickPark/build/Debug-iphonesimulator/include -I/Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/DerivedSources/i386 -I/Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/DerivedSources -include /var/folders/ht/htkjuLauFJePAer-N6uP2U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PickPark_Prefix-efhbxzalvrporfdzgkdecrhpzdmp/PickPark_Prefix.pch -c /Users/chauchinyiu/development/PickPark/Classes/GoogleV3KmlParser.m -o /Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/Objects-normal/i386/GoogleV3KmlParser.o0#
+lSLF07#2@75"Compile /Users/chauchinyiu/development/PickPark/Classes/GoogleV3KmlParser.m327632342#327632343#0(0"0(0#0#67"/Users/chauchinyiu/development/PickPark/Classes/GoogleV3KmlParser.m8612575552#2041"    cd /Users/chauchinyiu/development/PickPark    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-generated-files.hmap -I/Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-own-target-headers.hmap -I/Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-all-target-headers.hmap -iquote /Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-project-headers.hmap -F/Users/chauchinyiu/development/PickPark/build/Debug-iphonesimulator -I/Users/chauchinyiu/development/PickPark/build/Debug-iphonesimulator/include -I/Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/DerivedSources/i386 -I/Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/DerivedSources -include /var/folders/ht/htkjuLauFJePAer-N6uP2U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PickPark_Prefix-fiffluzgxkhcqeawayrcftqqkmgd/PickPark_Prefix.pch -c /Users/chauchinyiu/development/PickPark/Classes/GoogleV3KmlParser.m -o /Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/Objects-normal/i386/GoogleV3KmlParser.o0#
 
 CCompileC build/PickPark.build/Debug-iphonesimulator/PickPark.build/Objects-normal/i386/KmlResult.o /Users/chauchinyiu/Desktop/PickPark/Classes/KmlResult.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s327256697.746795
@@ -803,8 +905,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@63"Compile /Users/chauchinyiu/Desktop/PickPark/Classes/KmlResult.m327256697#327256698#0(0"0(0#0#55"/Users/chauchinyiu/Desktop/PickPark/Classes/KmlResult.m8635562272#1919"    cd /Users/chauchinyiu/Desktop/PickPark    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/chauchinyiu/Desktop/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-generated-files.hmap -I/Users/chauchinyiu/Desktop/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-own-target-headers.hmap -I/Users/chauchinyiu/Desktop/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-all-target-headers.hmap -iquote /Users/chauchinyiu/Desktop/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-project-headers.hmap -F/Users/chauchinyiu/Desktop/PickPark/build/Debug-iphonesimulator -I/Users/chauchinyiu/Desktop/PickPark/build/Debug-iphonesimulator/include -I/Users/chauchinyiu/Desktop/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/DerivedSources/i386 -I/Users/chauchinyiu/Desktop/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/DerivedSources -include /var/folders/ht/htkjuLauFJePAer-N6uP2U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PickPark_Prefix-cegbuihyclwtvdaminigmbxedgai/PickPark_Prefix.pch -c /Users/chauchinyiu/Desktop/PickPark/Classes/KmlResult.m -o /Users/chauchinyiu/Desktop/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/Objects-normal/i386/KmlResult.o0#
 
 CCompileC build/PickPark.build/Debug-iphonesimulator/PickPark.build/Objects-normal/i386/KmlResult.o /Users/chauchinyiu/development/PickPark/Classes/KmlResult.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s327537841.907063
-e327537842.050088
+s327632342.887579
+e327632343.040688
 r1
 xCompileC
 xbuild/PickPark.build/Debug-iphonesimulator/PickPark.build/Objects-normal/i386/KmlResult.o
@@ -813,7 +915,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@67"Compile /Users/chauchinyiu/development/PickPark/Classes/KmlResult.m327537841#327537842#0(0"0(0#0#59"/Users/chauchinyiu/development/PickPark/Classes/KmlResult.m8604195200#2025"    cd /Users/chauchinyiu/development/PickPark    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-generated-files.hmap -I/Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-own-target-headers.hmap -I/Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-all-target-headers.hmap -iquote /Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-project-headers.hmap -F/Users/chauchinyiu/development/PickPark/build/Debug-iphonesimulator -I/Users/chauchinyiu/development/PickPark/build/Debug-iphonesimulator/include -I/Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/DerivedSources/i386 -I/Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/DerivedSources -include /var/folders/ht/htkjuLauFJePAer-N6uP2U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PickPark_Prefix-efhbxzalvrporfdzgkdecrhpzdmp/PickPark_Prefix.pch -c /Users/chauchinyiu/development/PickPark/Classes/KmlResult.m -o /Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/Objects-normal/i386/KmlResult.o0#
+lSLF07#2@67"Compile /Users/chauchinyiu/development/PickPark/Classes/KmlResult.m327632342#327632343#0(0"0(0#0#59"/Users/chauchinyiu/development/PickPark/Classes/KmlResult.m8607748064#2025"    cd /Users/chauchinyiu/development/PickPark    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-generated-files.hmap -I/Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-own-target-headers.hmap -I/Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-all-target-headers.hmap -iquote /Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-project-headers.hmap -F/Users/chauchinyiu/development/PickPark/build/Debug-iphonesimulator -I/Users/chauchinyiu/development/PickPark/build/Debug-iphonesimulator/include -I/Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/DerivedSources/i386 -I/Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/DerivedSources -include /var/folders/ht/htkjuLauFJePAer-N6uP2U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PickPark_Prefix-fiffluzgxkhcqeawayrcftqqkmgd/PickPark_Prefix.pch -c /Users/chauchinyiu/development/PickPark/Classes/KmlResult.m -o /Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/Objects-normal/i386/KmlResult.o0#
 
 CCompileC build/PickPark.build/Debug-iphonesimulator/PickPark.build/Objects-normal/i386/LocAnnotation.o /Users/chauchinyiu/Desktop/PickPark/Classes/LocAnnotation.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s327256697.787698
@@ -829,8 +931,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@67"Compile /Users/chauchinyiu/Desktop/PickPark/Classes/LocAnnotation.m327256697#327256698#0(0"0(0#0#59"/Users/chauchinyiu/Desktop/PickPark/Classes/LocAnnotation.m8634871136#1927"    cd /Users/chauchinyiu/Desktop/PickPark    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/chauchinyiu/Desktop/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-generated-files.hmap -I/Users/chauchinyiu/Desktop/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-own-target-headers.hmap -I/Users/chauchinyiu/Desktop/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-all-target-headers.hmap -iquote /Users/chauchinyiu/Desktop/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-project-headers.hmap -F/Users/chauchinyiu/Desktop/PickPark/build/Debug-iphonesimulator -I/Users/chauchinyiu/Desktop/PickPark/build/Debug-iphonesimulator/include -I/Users/chauchinyiu/Desktop/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/DerivedSources/i386 -I/Users/chauchinyiu/Desktop/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/DerivedSources -include /var/folders/ht/htkjuLauFJePAer-N6uP2U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PickPark_Prefix-cegbuihyclwtvdaminigmbxedgai/PickPark_Prefix.pch -c /Users/chauchinyiu/Desktop/PickPark/Classes/LocAnnotation.m -o /Users/chauchinyiu/Desktop/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/Objects-normal/i386/LocAnnotation.o0#
 
 CCompileC build/PickPark.build/Debug-iphonesimulator/PickPark.build/Objects-normal/i386/LocAnnotation.o /Users/chauchinyiu/development/PickPark/Classes/LocAnnotation.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s327537841.990523
-e327537842.070573
+s327632342.933657
+e327632343.039443
 r1
 xCompileC
 xbuild/PickPark.build/Debug-iphonesimulator/PickPark.build/Objects-normal/i386/LocAnnotation.o
@@ -839,7 +941,10 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@71"Compile /Users/chauchinyiu/development/PickPark/Classes/LocAnnotation.m327537841#327537842#0(0"0(0#0#63"/Users/chauchinyiu/development/PickPark/Classes/LocAnnotation.m8601019168#2033"    cd /Users/chauchinyiu/development/PickPark    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-generated-files.hmap -I/Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-own-target-headers.hmap -I/Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-all-target-headers.hmap -iquote /Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-project-headers.hmap -F/Users/chauchinyiu/development/PickPark/build/Debug-iphonesimulator -I/Users/chauchinyiu/development/PickPark/build/Debug-iphonesimulator/include -I/Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/DerivedSources/i386 -I/Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/DerivedSources -include /var/folders/ht/htkjuLauFJePAer-N6uP2U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PickPark_Prefix-efhbxzalvrporfdzgkdecrhpzdmp/PickPark_Prefix.pch -c /Users/chauchinyiu/development/PickPark/Classes/LocAnnotation.m -o /Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/Objects-normal/i386/LocAnnotation.o0#
+lSLF07#2@71"Compile /Users/chauchinyiu/development/PickPark/Classes/LocAnnotation.m327632342#327632343#0(0"0(0#0#63"/Users/chauchinyiu/development/PickPark/Classes/LocAnnotation.m8594664512#2033"    cd /Users/chauchinyiu/development/PickPark    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-generated-files.hmap -I/Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-own-target-headers.hmap -I/Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-all-target-headers.hmap -iquote /Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-project-headers.hmap -F/Users/chauchinyiu/development/PickPark/build/Debug-iphonesimulator -I/Users/chauchinyiu/development/PickPark/build/Debug-iphonesimulator/include -I/Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/DerivedSources/i386 -I/Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/DerivedSources -include /var/folders/ht/htkjuLauFJePAer-N6uP2U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PickPark_Prefix-fiffluzgxkhcqeawayrcftqqkmgd/PickPark_Prefix.pch -c /Users/chauchinyiu/development/PickPark/Classes/LocAnnotation.m -o /Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/Objects-normal/i386/LocAnnotation.o0#
+
+CCompileC build/PickPark.build/Debug-iphonesimulator/PickPark.build/Objects-normal/i386/Location.o /Users/chauchinyiu/development/PickPark/Classes/Location.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
 
 CCompileC build/PickPark.build/Debug-iphonesimulator/PickPark.build/Objects-normal/i386/MapCell.o /Users/chauchinyiu/Desktop/PickPark/Classes/MapCell.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s327256697.790035
@@ -855,8 +960,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@61"Compile /Users/chauchinyiu/Desktop/PickPark/Classes/MapCell.m327256697#327256698#0(0"0(0#0#53"/Users/chauchinyiu/Desktop/PickPark/Classes/MapCell.m8634775744#1915"    cd /Users/chauchinyiu/Desktop/PickPark    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/chauchinyiu/Desktop/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-generated-files.hmap -I/Users/chauchinyiu/Desktop/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-own-target-headers.hmap -I/Users/chauchinyiu/Desktop/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-all-target-headers.hmap -iquote /Users/chauchinyiu/Desktop/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-project-headers.hmap -F/Users/chauchinyiu/Desktop/PickPark/build/Debug-iphonesimulator -I/Users/chauchinyiu/Desktop/PickPark/build/Debug-iphonesimulator/include -I/Users/chauchinyiu/Desktop/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/DerivedSources/i386 -I/Users/chauchinyiu/Desktop/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/DerivedSources -include /var/folders/ht/htkjuLauFJePAer-N6uP2U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PickPark_Prefix-cegbuihyclwtvdaminigmbxedgai/PickPark_Prefix.pch -c /Users/chauchinyiu/Desktop/PickPark/Classes/MapCell.m -o /Users/chauchinyiu/Desktop/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/Objects-normal/i386/MapCell.o0#
 
 CCompileC build/PickPark.build/Debug-iphonesimulator/PickPark.build/Objects-normal/i386/MapCell.o /Users/chauchinyiu/development/PickPark/Classes/MapCell.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s327537841.991505
-e327537842.096575
+s327632342.967929
+e327632343.091078
 r1
 xCompileC
 xbuild/PickPark.build/Debug-iphonesimulator/PickPark.build/Objects-normal/i386/MapCell.o
@@ -865,7 +970,10 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@65"Compile /Users/chauchinyiu/development/PickPark/Classes/MapCell.m327537841#327537842#0(0"0(0#0#57"/Users/chauchinyiu/development/PickPark/Classes/MapCell.m8601533344#2021"    cd /Users/chauchinyiu/development/PickPark    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-generated-files.hmap -I/Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-own-target-headers.hmap -I/Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-all-target-headers.hmap -iquote /Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-project-headers.hmap -F/Users/chauchinyiu/development/PickPark/build/Debug-iphonesimulator -I/Users/chauchinyiu/development/PickPark/build/Debug-iphonesimulator/include -I/Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/DerivedSources/i386 -I/Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/DerivedSources -include /var/folders/ht/htkjuLauFJePAer-N6uP2U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PickPark_Prefix-efhbxzalvrporfdzgkdecrhpzdmp/PickPark_Prefix.pch -c /Users/chauchinyiu/development/PickPark/Classes/MapCell.m -o /Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/Objects-normal/i386/MapCell.o0#
+lSLF07#2@65"Compile /Users/chauchinyiu/development/PickPark/Classes/MapCell.m327632342#327632343#0(0"0(0#0#57"/Users/chauchinyiu/development/PickPark/Classes/MapCell.m8612953216#2021"    cd /Users/chauchinyiu/development/PickPark    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-generated-files.hmap -I/Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-own-target-headers.hmap -I/Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-all-target-headers.hmap -iquote /Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-project-headers.hmap -F/Users/chauchinyiu/development/PickPark/build/Debug-iphonesimulator -I/Users/chauchinyiu/development/PickPark/build/Debug-iphonesimulator/include -I/Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/DerivedSources/i386 -I/Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/DerivedSources -include /var/folders/ht/htkjuLauFJePAer-N6uP2U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PickPark_Prefix-fiffluzgxkhcqeawayrcftqqkmgd/PickPark_Prefix.pch -c /Users/chauchinyiu/development/PickPark/Classes/MapCell.m -o /Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/Objects-normal/i386/MapCell.o0#
+
+CCompileC build/PickPark.build/Debug-iphonesimulator/PickPark.build/Objects-normal/i386/ParkObject.o /Users/chauchinyiu/development/PickPark/Classes/ParkObject.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
 
 CCompileC build/PickPark.build/Debug-iphonesimulator/PickPark.build/Objects-normal/i386/PhoneCaller.o /Users/chauchinyiu/Desktop/PickPark/Classes/PhoneCaller.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s327270736.623594
@@ -909,8 +1017,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@73"Compile /Users/chauchinyiu/Desktop/PickPark/Classes/PickParkAppDelegate.m327271903#327271903#0(0"0(0#0#65"/Users/chauchinyiu/Desktop/PickPark/Classes/PickParkAppDelegate.m8600662432#1939"    cd /Users/chauchinyiu/Desktop/PickPark    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/chauchinyiu/Desktop/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-generated-files.hmap -I/Users/chauchinyiu/Desktop/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-own-target-headers.hmap -I/Users/chauchinyiu/Desktop/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-all-target-headers.hmap -iquote /Users/chauchinyiu/Desktop/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-project-headers.hmap -F/Users/chauchinyiu/Desktop/PickPark/build/Debug-iphonesimulator -I/Users/chauchinyiu/Desktop/PickPark/build/Debug-iphonesimulator/include -I/Users/chauchinyiu/Desktop/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/DerivedSources/i386 -I/Users/chauchinyiu/Desktop/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/DerivedSources -include /var/folders/ht/htkjuLauFJePAer-N6uP2U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PickPark_Prefix-cegbuihyclwtvdaminigmbxedgai/PickPark_Prefix.pch -c /Users/chauchinyiu/Desktop/PickPark/Classes/PickParkAppDelegate.m -o /Users/chauchinyiu/Desktop/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/Objects-normal/i386/PickParkAppDelegate.o0#
 
 CCompileC build/PickPark.build/Debug-iphonesimulator/PickPark.build/Objects-normal/i386/PickParkAppDelegate.o /Users/chauchinyiu/development/PickPark/Classes/PickParkAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s327537841.685462
-e327537841.863046
+s327635042.840013
+e327635042.945084
 r1
 xCompileC
 xbuild/PickPark.build/Debug-iphonesimulator/PickPark.build/Objects-normal/i386/PickParkAppDelegate.o
@@ -919,7 +1027,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@77"Compile /Users/chauchinyiu/development/PickPark/Classes/PickParkAppDelegate.m327537841#327537841#0(0"0(0#0#69"/Users/chauchinyiu/development/PickPark/Classes/PickParkAppDelegate.m8604531104#2045"    cd /Users/chauchinyiu/development/PickPark    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-generated-files.hmap -I/Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-own-target-headers.hmap -I/Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-all-target-headers.hmap -iquote /Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-project-headers.hmap -F/Users/chauchinyiu/development/PickPark/build/Debug-iphonesimulator -I/Users/chauchinyiu/development/PickPark/build/Debug-iphonesimulator/include -I/Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/DerivedSources/i386 -I/Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/DerivedSources -include /var/folders/ht/htkjuLauFJePAer-N6uP2U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PickPark_Prefix-efhbxzalvrporfdzgkdecrhpzdmp/PickPark_Prefix.pch -c /Users/chauchinyiu/development/PickPark/Classes/PickParkAppDelegate.m -o /Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/Objects-normal/i386/PickParkAppDelegate.o0#
+lSLF07#2@77"Compile /Users/chauchinyiu/development/PickPark/Classes/PickParkAppDelegate.m327635042#327635042#0(0"0(0#0#69"/Users/chauchinyiu/development/PickPark/Classes/PickParkAppDelegate.m7307761437599099904#2045"    cd /Users/chauchinyiu/development/PickPark    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-generated-files.hmap -I/Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-own-target-headers.hmap -I/Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-all-target-headers.hmap -iquote /Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-project-headers.hmap -F/Users/chauchinyiu/development/PickPark/build/Debug-iphonesimulator -I/Users/chauchinyiu/development/PickPark/build/Debug-iphonesimulator/include -I/Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/DerivedSources/i386 -I/Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/DerivedSources -include /var/folders/ht/htkjuLauFJePAer-N6uP2U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PickPark_Prefix-fiffluzgxkhcqeawayrcftqqkmgd/PickPark_Prefix.pch -c /Users/chauchinyiu/development/PickPark/Classes/PickParkAppDelegate.m -o /Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/Objects-normal/i386/PickParkAppDelegate.o0#
 
 CCompileC build/PickPark.build/Debug-iphonesimulator/PickPark.build/Objects-normal/i386/PickParkMainVC.o /Users/chauchinyiu/Desktop/PickPark/Classes/PickParkMainVC.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s327272116.289053
@@ -940,8 +1048,8 @@ o/Users/chauchinyiu/Desktop/PickPark/Classes/PickParkMainVC.m:63: warning: '...'
 lSLF07#2@68"Compile /Users/chauchinyiu/Desktop/PickPark/Classes/PickParkMainVC.m327272116#327272116#0(574"/Users/chauchinyiu/Desktop/PickPark/Classes/PickParkMainVC.m: In function '-[PickParkMainVC clickParkButton:]':/Users/chauchinyiu/Desktop/PickPark/Classes/PickParkMainVC.m:63: warning: 'PickParkMainVC' may not respond to '-showLocationOnMap'/Users/chauchinyiu/Desktop/PickPark/Classes/PickParkMainVC.m:63: warning: (Messages without a matching method signature/Users/chauchinyiu/Desktop/PickPark/Classes/PickParkMainVC.m:63: warning: will be assumed to return 'id' and accept/Users/chauchinyiu/Desktop/PickPark/Classes/PickParkMainVC.m:63: warning: '...' as arguments.)2(22@56"'PickParkMainVC' may not respond to '-showLocationOnMap'327272116#112#131#0(6@60"/Users/chauchinyiu/Desktop/PickPark/Classes/PickParkMainVC.m327272115#63#0#63#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)327272116#243#120#0(6@60"/Users/chauchinyiu/Desktop/PickPark/Classes/PickParkMainVC.m327272115#63#0#63#0#0"0(0#0#60"/Users/chauchinyiu/Desktop/PickPark/Classes/PickParkMainVC.m8624805632#1929"    cd /Users/chauchinyiu/Desktop/PickPark    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/chauchinyiu/Desktop/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-generated-files.hmap -I/Users/chauchinyiu/Desktop/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-own-target-headers.hmap -I/Users/chauchinyiu/Desktop/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-all-target-headers.hmap -iquote /Users/chauchinyiu/Desktop/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-project-headers.hmap -F/Users/chauchinyiu/Desktop/PickPark/build/Debug-iphonesimulator -I/Users/chauchinyiu/Desktop/PickPark/build/Debug-iphonesimulator/include -I/Users/chauchinyiu/Desktop/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/DerivedSources/i386 -I/Users/chauchinyiu/Desktop/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/DerivedSources -include /var/folders/ht/htkjuLauFJePAer-N6uP2U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PickPark_Prefix-cegbuihyclwtvdaminigmbxedgai/PickPark_Prefix.pch -c /Users/chauchinyiu/Desktop/PickPark/Classes/PickParkMainVC.m -o /Users/chauchinyiu/Desktop/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/Objects-normal/i386/PickParkMainVC.o0#
 
 CCompileC build/PickPark.build/Debug-iphonesimulator/PickPark.build/Objects-normal/i386/PickParkMainVC.o /Users/chauchinyiu/development/PickPark/Classes/PickParkMainVC.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s327541576.166440
-e327541576.304140
+s327721997.159541
+e327721997.279992
 r1
 xCompileC
 xbuild/PickPark.build/Debug-iphonesimulator/PickPark.build/Objects-normal/i386/PickParkMainVC.o
@@ -950,7 +1058,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@72"Compile /Users/chauchinyiu/development/PickPark/Classes/PickParkMainVC.m327541576#327541576#0(0"0(0#0#64"/Users/chauchinyiu/development/PickPark/Classes/PickParkMainVC.m8620048992#2035"    cd /Users/chauchinyiu/development/PickPark    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-generated-files.hmap -I/Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-own-target-headers.hmap -I/Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-all-target-headers.hmap -iquote /Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-project-headers.hmap -F/Users/chauchinyiu/development/PickPark/build/Debug-iphonesimulator -I/Users/chauchinyiu/development/PickPark/build/Debug-iphonesimulator/include -I/Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/DerivedSources/i386 -I/Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/DerivedSources -include /var/folders/ht/htkjuLauFJePAer-N6uP2U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PickPark_Prefix-efhbxzalvrporfdzgkdecrhpzdmp/PickPark_Prefix.pch -c /Users/chauchinyiu/development/PickPark/Classes/PickParkMainVC.m -o /Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/Objects-normal/i386/PickParkMainVC.o0#
+lSLF07#2@72"Compile /Users/chauchinyiu/development/PickPark/Classes/PickParkMainVC.m327721997#327721997#0(0"0(0#0#64"/Users/chauchinyiu/development/PickPark/Classes/PickParkMainVC.m8608369248#2035"    cd /Users/chauchinyiu/development/PickPark    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-generated-files.hmap -I/Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-own-target-headers.hmap -I/Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-all-target-headers.hmap -iquote /Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-project-headers.hmap -F/Users/chauchinyiu/development/PickPark/build/Debug-iphonesimulator -I/Users/chauchinyiu/development/PickPark/build/Debug-iphonesimulator/include -I/Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/DerivedSources/i386 -I/Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/DerivedSources -include /var/folders/ht/htkjuLauFJePAer-N6uP2U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PickPark_Prefix-fiffluzgxkhcqeawayrcftqqkmgd/PickPark_Prefix.pch -c /Users/chauchinyiu/development/PickPark/Classes/PickParkMainVC.m -o /Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/Objects-normal/i386/PickParkMainVC.o0#
 
 CCompileC build/PickPark.build/Debug-iphonesimulator/PickPark.build/Objects-normal/i386/RadiusLayerView.o /Users/chauchinyiu/Desktop/PickPark/Classes/RadiusLayerView.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s327256697.942284
@@ -966,8 +1074,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@69"Compile /Users/chauchinyiu/Desktop/PickPark/Classes/RadiusLayerView.m327256697#327256698#0(0"0(0#0#61"/Users/chauchinyiu/Desktop/PickPark/Classes/RadiusLayerView.m8635171936#1931"    cd /Users/chauchinyiu/Desktop/PickPark    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/chauchinyiu/Desktop/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-generated-files.hmap -I/Users/chauchinyiu/Desktop/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-own-target-headers.hmap -I/Users/chauchinyiu/Desktop/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-all-target-headers.hmap -iquote /Users/chauchinyiu/Desktop/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-project-headers.hmap -F/Users/chauchinyiu/Desktop/PickPark/build/Debug-iphonesimulator -I/Users/chauchinyiu/Desktop/PickPark/build/Debug-iphonesimulator/include -I/Users/chauchinyiu/Desktop/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/DerivedSources/i386 -I/Users/chauchinyiu/Desktop/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/DerivedSources -include /var/folders/ht/htkjuLauFJePAer-N6uP2U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PickPark_Prefix-cegbuihyclwtvdaminigmbxedgai/PickPark_Prefix.pch -c /Users/chauchinyiu/Desktop/PickPark/Classes/RadiusLayerView.m -o /Users/chauchinyiu/Desktop/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/Objects-normal/i386/RadiusLayerView.o0#
 
 CCompileC build/PickPark.build/Debug-iphonesimulator/PickPark.build/Objects-normal/i386/RadiusLayerView.o /Users/chauchinyiu/development/PickPark/Classes/RadiusLayerView.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s327537842.050236
-e327537842.134116
+s327632343.039569
+e327632343.128456
 r1
 xCompileC
 xbuild/PickPark.build/Debug-iphonesimulator/PickPark.build/Objects-normal/i386/RadiusLayerView.o
@@ -976,7 +1084,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@73"Compile /Users/chauchinyiu/development/PickPark/Classes/RadiusLayerView.m327537842#327537842#0(0"0(0#0#65"/Users/chauchinyiu/development/PickPark/Classes/RadiusLayerView.m8601179296#2037"    cd /Users/chauchinyiu/development/PickPark    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-generated-files.hmap -I/Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-own-target-headers.hmap -I/Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-all-target-headers.hmap -iquote /Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-project-headers.hmap -F/Users/chauchinyiu/development/PickPark/build/Debug-iphonesimulator -I/Users/chauchinyiu/development/PickPark/build/Debug-iphonesimulator/include -I/Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/DerivedSources/i386 -I/Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/DerivedSources -include /var/folders/ht/htkjuLauFJePAer-N6uP2U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PickPark_Prefix-efhbxzalvrporfdzgkdecrhpzdmp/PickPark_Prefix.pch -c /Users/chauchinyiu/development/PickPark/Classes/RadiusLayerView.m -o /Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/Objects-normal/i386/RadiusLayerView.o0#
+lSLF07#2@73"Compile /Users/chauchinyiu/development/PickPark/Classes/RadiusLayerView.m327632343#327632343#0(0"0(0#0#65"/Users/chauchinyiu/development/PickPark/Classes/RadiusLayerView.m8612939392#2037"    cd /Users/chauchinyiu/development/PickPark    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-generated-files.hmap -I/Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-own-target-headers.hmap -I/Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-all-target-headers.hmap -iquote /Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-project-headers.hmap -F/Users/chauchinyiu/development/PickPark/build/Debug-iphonesimulator -I/Users/chauchinyiu/development/PickPark/build/Debug-iphonesimulator/include -I/Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/DerivedSources/i386 -I/Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/DerivedSources -include /var/folders/ht/htkjuLauFJePAer-N6uP2U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PickPark_Prefix-fiffluzgxkhcqeawayrcftqqkmgd/PickPark_Prefix.pch -c /Users/chauchinyiu/development/PickPark/Classes/RadiusLayerView.m -o /Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/Objects-normal/i386/RadiusLayerView.o0#
 
 CCompileC build/PickPark.build/Debug-iphonesimulator/PickPark.build/Objects-normal/i386/RootViewController.o /Users/chauchinyiu/Desktop/PickPark/Classes/RootViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s327255073.074254
@@ -1007,8 +1115,8 @@ o/Users/chauchinyiu/Desktop/PickPark/Classes/StringUtility.m:221: warning: metho
 lSLF07#2@67"Compile /Users/chauchinyiu/Desktop/PickPark/Classes/StringUtility.m327271199#327271199#0(256"/Users/chauchinyiu/Desktop/PickPark/Classes/StringUtility.m:221: warning: incomplete implementation of class 'StringUtility'/Users/chauchinyiu/Desktop/PickPark/Classes/StringUtility.m:221: warning: method definition for '+localizedCountryName:' not found2(22@50"Incomplete implementation of class 'StringUtility'327271199#0#125#0(6@59"/Users/chauchinyiu/Desktop/PickPark/Classes/StringUtility.m327271199#221#0#221#0#38"incomplete implementation of class '*'0(22@56"Method definition for '+localizedCountryName:' not found327271199#125#131#0(6@59"/Users/chauchinyiu/Desktop/PickPark/Classes/StringUtility.m327271199#221#0#221#0#35"method definition for '*' not found0(0#0#59"/Users/chauchinyiu/Desktop/PickPark/Classes/StringUtility.m8603771520#1927"    cd /Users/chauchinyiu/Desktop/PickPark    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/chauchinyiu/Desktop/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-generated-files.hmap -I/Users/chauchinyiu/Desktop/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-own-target-headers.hmap -I/Users/chauchinyiu/Desktop/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-all-target-headers.hmap -iquote /Users/chauchinyiu/Desktop/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-project-headers.hmap -F/Users/chauchinyiu/Desktop/PickPark/build/Debug-iphonesimulator -I/Users/chauchinyiu/Desktop/PickPark/build/Debug-iphonesimulator/include -I/Users/chauchinyiu/Desktop/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/DerivedSources/i386 -I/Users/chauchinyiu/Desktop/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/DerivedSources -include /var/folders/ht/htkjuLauFJePAer-N6uP2U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PickPark_Prefix-cegbuihyclwtvdaminigmbxedgai/PickPark_Prefix.pch -c /Users/chauchinyiu/Desktop/PickPark/Classes/StringUtility.m -o /Users/chauchinyiu/Desktop/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/Objects-normal/i386/StringUtility.o0#
 
 CCompileC build/PickPark.build/Debug-iphonesimulator/PickPark.build/Objects-normal/i386/StringUtility.o /Users/chauchinyiu/development/PickPark/Classes/StringUtility.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s327537841.992767
-e327537842.086017
+s327632343.006154
+e327632343.099664
 r1
 xCompileC
 xbuild/PickPark.build/Debug-iphonesimulator/PickPark.build/Objects-normal/i386/StringUtility.o
@@ -1017,9 +1125,9 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-o/Users/chauchinyiu/development/PickPark/Classes/StringUtility.m:221: warning: incomplete implementation of class 'StringUtility'
-o/Users/chauchinyiu/development/PickPark/Classes/StringUtility.m:221: warning: method definition for '+localizedCountryName:' not found
-lSLF07#2@71"Compile /Users/chauchinyiu/development/PickPark/Classes/StringUtility.m327537841#327537842#0(264"/Users/chauchinyiu/development/PickPark/Classes/StringUtility.m:221: warning: incomplete implementation of class 'StringUtility'/Users/chauchinyiu/development/PickPark/Classes/StringUtility.m:221: warning: method definition for '+localizedCountryName:' not found2(22@50"Incomplete implementation of class 'StringUtility'327537842#0#129#0(6@63"/Users/chauchinyiu/development/PickPark/Classes/StringUtility.m327271199#221#0#221#0#38"incomplete implementation of class '*'0(22@56"Method definition for '+localizedCountryName:' not found327537842#129#135#0(6@63"/Users/chauchinyiu/development/PickPark/Classes/StringUtility.m327271199#221#0#221#0#35"method definition for '*' not found0(0#0#63"/Users/chauchinyiu/development/PickPark/Classes/StringUtility.m8600521984#2033"    cd /Users/chauchinyiu/development/PickPark    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-generated-files.hmap -I/Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-own-target-headers.hmap -I/Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-all-target-headers.hmap -iquote /Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-project-headers.hmap -F/Users/chauchinyiu/development/PickPark/build/Debug-iphonesimulator -I/Users/chauchinyiu/development/PickPark/build/Debug-iphonesimulator/include -I/Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/DerivedSources/i386 -I/Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/DerivedSources -include /var/folders/ht/htkjuLauFJePAer-N6uP2U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PickPark_Prefix-efhbxzalvrporfdzgkdecrhpzdmp/PickPark_Prefix.pch -c /Users/chauchinyiu/development/PickPark/Classes/StringUtility.m -o /Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/Objects-normal/i386/StringUtility.o0#
+o/Users/chauchinyiu/development/PickPark/Classes/StringUtility.m:186: warning: incomplete implementation of class 'StringUtility'
+o/Users/chauchinyiu/development/PickPark/Classes/StringUtility.m:186: warning: method definition for '+localizedCountryName:' not found
+lSLF07#2@71"Compile /Users/chauchinyiu/development/PickPark/Classes/StringUtility.m327632343#327632343#0(264"/Users/chauchinyiu/development/PickPark/Classes/StringUtility.m:186: warning: incomplete implementation of class 'StringUtility'/Users/chauchinyiu/development/PickPark/Classes/StringUtility.m:186: warning: method definition for '+localizedCountryName:' not found2(22@50"Incomplete implementation of class 'StringUtility'327632343#0#129#0(6@63"/Users/chauchinyiu/development/PickPark/Classes/StringUtility.m327632012#186#0#186#0#38"incomplete implementation of class '*'0(22@56"Method definition for '+localizedCountryName:' not found327632343#129#135#0(6@63"/Users/chauchinyiu/development/PickPark/Classes/StringUtility.m327632012#186#0#186#0#35"method definition for '*' not found0(0#0#63"/Users/chauchinyiu/development/PickPark/Classes/StringUtility.m8613112736#2033"    cd /Users/chauchinyiu/development/PickPark    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-generated-files.hmap -I/Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-own-target-headers.hmap -I/Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-all-target-headers.hmap -iquote /Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-project-headers.hmap -F/Users/chauchinyiu/development/PickPark/build/Debug-iphonesimulator -I/Users/chauchinyiu/development/PickPark/build/Debug-iphonesimulator/include -I/Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/DerivedSources/i386 -I/Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/DerivedSources -include /var/folders/ht/htkjuLauFJePAer-N6uP2U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PickPark_Prefix-fiffluzgxkhcqeawayrcftqqkmgd/PickPark_Prefix.pch -c /Users/chauchinyiu/development/PickPark/Classes/StringUtility.m -o /Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/Objects-normal/i386/StringUtility.o0#
 
 CCompileC build/PickPark.build/Debug-iphonesimulator/PickPark.build/Objects-normal/i386/TwoButtonVC.o /Users/chauchinyiu/Desktop/PickPark/Classes/TwoButtonVC.m normal i386 objective-c com.apple.compilers.gcc.4_2
 r0
@@ -1038,8 +1146,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@50"Compile /Users/chauchinyiu/Desktop/PickPark/main.m327255073#327255073#0(0"0(0#0#42"/Users/chauchinyiu/Desktop/PickPark/main.m8620389568#1901"    cd /Users/chauchinyiu/Desktop/PickPark    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/chauchinyiu/Desktop/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-generated-files.hmap -I/Users/chauchinyiu/Desktop/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-own-target-headers.hmap -I/Users/chauchinyiu/Desktop/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-all-target-headers.hmap -iquote /Users/chauchinyiu/Desktop/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-project-headers.hmap -F/Users/chauchinyiu/Desktop/PickPark/build/Debug-iphonesimulator -I/Users/chauchinyiu/Desktop/PickPark/build/Debug-iphonesimulator/include -I/Users/chauchinyiu/Desktop/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/DerivedSources/i386 -I/Users/chauchinyiu/Desktop/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/DerivedSources -include /var/folders/ht/htkjuLauFJePAer-N6uP2U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PickPark_Prefix-cegbuihyclwtvdaminigmbxedgai/PickPark_Prefix.pch -c /Users/chauchinyiu/Desktop/PickPark/main.m -o /Users/chauchinyiu/Desktop/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/Objects-normal/i386/main.o0#
 
 CCompileC build/PickPark.build/Debug-iphonesimulator/PickPark.build/Objects-normal/i386/main.o /Users/chauchinyiu/development/PickPark/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s327537841.684028
-e327537841.833731
+s327632342.669512
+e327632342.809889
 r1
 xCompileC
 xbuild/PickPark.build/Debug-iphonesimulator/PickPark.build/Objects-normal/i386/main.o
@@ -1048,7 +1156,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@54"Compile /Users/chauchinyiu/development/PickPark/main.m327537841#327537841#0(0"0(0#0#46"/Users/chauchinyiu/development/PickPark/main.m8598100800#2007"    cd /Users/chauchinyiu/development/PickPark    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-generated-files.hmap -I/Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-own-target-headers.hmap -I/Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-all-target-headers.hmap -iquote /Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-project-headers.hmap -F/Users/chauchinyiu/development/PickPark/build/Debug-iphonesimulator -I/Users/chauchinyiu/development/PickPark/build/Debug-iphonesimulator/include -I/Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/DerivedSources/i386 -I/Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/DerivedSources -include /var/folders/ht/htkjuLauFJePAer-N6uP2U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PickPark_Prefix-efhbxzalvrporfdzgkdecrhpzdmp/PickPark_Prefix.pch -c /Users/chauchinyiu/development/PickPark/main.m -o /Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/Objects-normal/i386/main.o0#
+lSLF07#2@54"Compile /Users/chauchinyiu/development/PickPark/main.m327632342#327632342#0(0"0(0#0#46"/Users/chauchinyiu/development/PickPark/main.m8613048096#2007"    cd /Users/chauchinyiu/development/PickPark    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-generated-files.hmap -I/Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-own-target-headers.hmap -I/Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-all-target-headers.hmap -iquote /Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-project-headers.hmap -F/Users/chauchinyiu/development/PickPark/build/Debug-iphonesimulator -I/Users/chauchinyiu/development/PickPark/build/Debug-iphonesimulator/include -I/Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/DerivedSources/i386 -I/Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/DerivedSources -include /var/folders/ht/htkjuLauFJePAer-N6uP2U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PickPark_Prefix-fiffluzgxkhcqeawayrcftqqkmgd/PickPark_Prefix.pch -c /Users/chauchinyiu/development/PickPark/main.m -o /Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/Objects-normal/i386/main.o0#
 
 CCompileXIB /Users/chauchinyiu/Desktop/PickPark/Classes/PickParkMainVC.xib
 s327271536.573863
@@ -1075,18 +1183,25 @@ x/Users/chauchinyiu/Desktop/PickPark/RootViewController.xib
 lSLF07#2@33"CompileXIB RootViewController.xib327255071#327255072#0(0"0(0#0#58"/Users/chauchinyiu/Desktop/PickPark/RootViewController.xib8608089888#578"    cd /Users/chauchinyiu/Desktop/PickPark    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/chauchinyiu/Desktop/PickPark/build/Debug-iphonesimulator/PickPark.app/RootViewController.nib /Users/chauchinyiu/Desktop/PickPark/RootViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
 
 CCompileXIB /Users/chauchinyiu/development/PickPark/Classes/PickParkMainVC.xib
-s327541559.620822
-e327541559.986382
+s327673115.010435
+e327673115.396947
 r1
 xCompileXIB
 x/Users/chauchinyiu/development/PickPark/Classes/PickParkMainVC.xib
-lSLF07#2@37"CompileXIB Classes/PickParkMainVC.xib327541559#327541559#0(0"0(0#0#66"/Users/chauchinyiu/development/PickPark/Classes/PickParkMainVC.xib8616699744#652"    cd /Users/chauchinyiu/development/PickPark    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/chauchinyiu/development/PickPark/build/Debug-iphonesimulator/PickPark.app/PickParkMainVC.nib /Users/chauchinyiu/development/PickPark/Classes/PickParkMainVC.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+lSLF07#2@37"CompileXIB Classes/PickParkMainVC.xib327673115#327673115#0(0"0(0#0#66"/Users/chauchinyiu/development/PickPark/Classes/PickParkMainVC.xib8603804448#652"    cd /Users/chauchinyiu/development/PickPark    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/chauchinyiu/development/PickPark/build/Debug-iphonesimulator/PickPark.app/PickParkMainVC.nib /Users/chauchinyiu/development/PickPark/Classes/PickParkMainVC.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
 
 CCompileXIB /Users/chauchinyiu/development/PickPark/MainWindow.xib
 r0
 
 CDataModelCompile /Users/chauchinyiu/development/PickPark/build/Debug-iphonesimulator/PickPark.app/storelocation.mom /Users/chauchinyiu/development/PickPark/Classes/storelocation.xcdatamodel
-r0
+s327632342.668369
+e327632342.811223
+r1
+xDataModelCompile
+x/Users/chauchinyiu/development/PickPark/build/Debug-iphonesimulator/PickPark.app/storelocation.mom
+x/Users/chauchinyiu/development/PickPark/Classes/storelocation.xcdatamodel
+o/Users/chauchinyiu/development/PickPark/Classes/storelocation.xcdatamodel:ParkObject.description: warning: ParkObject.description -- property name conflicts with a method already on NSObject or NSManagedObject 
+lSLF07#2@81"Compile /Users/chauchinyiu/development/PickPark/Classes/storelocation.xcdatamodel327632342#327632342#0(211"/Users/chauchinyiu/development/PickPark/Classes/storelocation.xcdatamodel:ParkObject.description: warning: ParkObject.description -- property name conflicts with a method already on NSObject or NSManagedObject 1(22@103"ParkObject.description -- property name conflicts with a method already on NSObject or NSManagedObject 327632342#18446744073709551615#0#0(6@73"/Users/chauchinyiu/development/PickPark/Classes/storelocation.xcdatamodel327542769#0#0#0#0#0"0(0#0#73"/Users/chauchinyiu/development/PickPark/Classes/storelocation.xcdatamodel8613265600#470"    cd /Users/chauchinyiu/development/PickPark    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/momc -XD_MOMC_TARGET_VERSION=10.6 /Users/chauchinyiu/development/PickPark/Classes/storelocation.xcdatamodel /Users/chauchinyiu/development/PickPark/build/Debug-iphonesimulator/PickPark.app/storelocation.mom0#
 
 CGenerateDSYMFile /Users/chauchinyiu/Desktop/PickPark/build/Debug-iphonesimulator/PickPark.app.dSYM /Users/chauchinyiu/Desktop/PickPark/build/Debug-iphonesimulator/PickPark.app/PickPark
 s327272116.384274
@@ -1098,13 +1213,13 @@ x/Users/chauchinyiu/Desktop/PickPark/build/Debug-iphonesimulator/PickPark.app/Pi
 lSLF07#2@112"GenerateDSYMFile build/Debug-iphonesimulator/PickPark.app.dSYM build/Debug-iphonesimulator/PickPark.app/PickPark327272116#327272116#0(0"0(0#0#85"/Users/chauchinyiu/Desktop/PickPark/build/Debug-iphonesimulator/PickPark.app/PickPark8625216224#377"    cd /Users/chauchinyiu/Desktop/PickPark    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/chauchinyiu/Desktop/PickPark/build/Debug-iphonesimulator/PickPark.app/PickPark -o /Users/chauchinyiu/Desktop/PickPark/build/Debug-iphonesimulator/PickPark.app.dSYM0#
 
 CGenerateDSYMFile /Users/chauchinyiu/development/PickPark/build/Debug-iphonesimulator/PickPark.app.dSYM /Users/chauchinyiu/development/PickPark/build/Debug-iphonesimulator/PickPark.app/PickPark
-s327541576.338419
-e327541576.361945
+s327721997.310515
+e327721997.329737
 r1
 xGenerateDSYMFile
 x/Users/chauchinyiu/development/PickPark/build/Debug-iphonesimulator/PickPark.app.dSYM
 x/Users/chauchinyiu/development/PickPark/build/Debug-iphonesimulator/PickPark.app/PickPark
-lSLF07#2@112"GenerateDSYMFile build/Debug-iphonesimulator/PickPark.app.dSYM build/Debug-iphonesimulator/PickPark.app/PickPark327541576#327541576#0(0"0(0#0#89"/Users/chauchinyiu/development/PickPark/build/Debug-iphonesimulator/PickPark.app/PickPark8621211040#451"    cd /Users/chauchinyiu/development/PickPark    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/dsymutil /Users/chauchinyiu/development/PickPark/build/Debug-iphonesimulator/PickPark.app/PickPark -o /Users/chauchinyiu/development/PickPark/build/Debug-iphonesimulator/PickPark.app.dSYM0#
+lSLF07#2@112"GenerateDSYMFile build/Debug-iphonesimulator/PickPark.app.dSYM build/Debug-iphonesimulator/PickPark.app/PickPark327721997#327721997#0(0"0(0#0#89"/Users/chauchinyiu/development/PickPark/build/Debug-iphonesimulator/PickPark.app/PickPark8621265216#451"    cd /Users/chauchinyiu/development/PickPark    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/dsymutil /Users/chauchinyiu/development/PickPark/build/Debug-iphonesimulator/PickPark.app/PickPark -o /Users/chauchinyiu/development/PickPark/build/Debug-iphonesimulator/PickPark.app.dSYM0#
 
 CLd /Users/chauchinyiu/Desktop/PickPark/build/Debug-iphonesimulator/PickPark.app/PickPark normal i386
 s327272116.358971
@@ -1117,14 +1232,14 @@ xi386
 lSLF07#2@90"Link /Users/chauchinyiu/Desktop/PickPark/build/Debug-iphonesimulator/PickPark.app/PickPark327272116#327272116#0(0"0(0#0#0"8626424288#954"    cd /Users/chauchinyiu/Desktop/PickPark    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/chauchinyiu/Desktop/PickPark/build/Debug-iphonesimulator -F/Users/chauchinyiu/Desktop/PickPark/build/Debug-iphonesimulator -filelist /Users/chauchinyiu/Desktop/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/Objects-normal/i386/PickPark.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreLocation -framework QuartzCore -framework MapKit -o /Users/chauchinyiu/Desktop/PickPark/build/Debug-iphonesimulator/PickPark.app/PickPark0#
 
 CLd /Users/chauchinyiu/development/PickPark/build/Debug-iphonesimulator/PickPark.app/PickPark normal i386
-s327541576.304234
-e327541576.338300
+s327721997.280080
+e327721997.310428
 r1
 xLd
 x/Users/chauchinyiu/development/PickPark/build/Debug-iphonesimulator/PickPark.app/PickPark
 xnormal
 xi386
-lSLF07#2@94"Link /Users/chauchinyiu/development/PickPark/build/Debug-iphonesimulator/PickPark.app/PickPark327541576#327541576#0(0"0(0#0#0"8624665024#1036"    cd /Users/chauchinyiu/development/PickPark    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/chauchinyiu/development/PickPark/build/Debug-iphonesimulator -F/Users/chauchinyiu/development/PickPark/build/Debug-iphonesimulator -filelist /Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/Objects-normal/i386/PickPark.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreLocation -framework QuartzCore -framework MapKit -o /Users/chauchinyiu/development/PickPark/build/Debug-iphonesimulator/PickPark.app/PickPark0#
+lSLF07#2@94"Link /Users/chauchinyiu/development/PickPark/build/Debug-iphonesimulator/PickPark.app/PickPark327721997#327721997#0(0"0(0#0#0"8626423584#1036"    cd /Users/chauchinyiu/development/PickPark    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -L/Users/chauchinyiu/development/PickPark/build/Debug-iphonesimulator -F/Users/chauchinyiu/development/PickPark/build/Debug-iphonesimulator -filelist /Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/Objects-normal/i386/PickPark.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreLocation -framework QuartzCore -framework MapKit -o /Users/chauchinyiu/development/PickPark/build/Debug-iphonesimulator/PickPark.app/PickPark0#
 
 CProcessInfoPlistFile /Users/chauchinyiu/Desktop/PickPark/build/Debug-iphonesimulator/PickPark.app/Info.plist PickPark-Info.plist
 s327255071.823640
@@ -1164,6 +1279,19 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@30"Precompile PickPark_Prefix.pch327537840#327537841#0(0"0(0#0#59"/Users/chauchinyiu/development/PickPark/PickPark_Prefix.pch8247898933497979904#1897"    cd /Users/chauchinyiu/development/PickPark    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-generated-files.hmap -I/Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-own-target-headers.hmap -I/Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-all-target-headers.hmap -iquote /Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-project-headers.hmap -F/Users/chauchinyiu/development/PickPark/build/Debug-iphonesimulator -I/Users/chauchinyiu/development/PickPark/build/Debug-iphonesimulator/include -I/Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/DerivedSources/i386 -I/Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/DerivedSources -c /Users/chauchinyiu/development/PickPark/PickPark_Prefix.pch -o /var/folders/ht/htkjuLauFJePAer-N6uP2U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PickPark_Prefix-efhbxzalvrporfdzgkdecrhpzdmp/PickPark_Prefix.pch.gch0#
 
+CProcessPCH /var/folders/ht/htkjuLauFJePAer-N6uP2U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PickPark_Prefix-fiffluzgxkhcqeawayrcftqqkmgd/PickPark_Prefix.pch.gch PickPark_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s327632341.614515
+e327632342.668103
+r1
+xProcessPCH
+x/var/folders/ht/htkjuLauFJePAer-N6uP2U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PickPark_Prefix-fiffluzgxkhcqeawayrcftqqkmgd/PickPark_Prefix.pch.gch
+xPickPark_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@30"Precompile PickPark_Prefix.pch327632341#327632342#0(0"0(0#0#59"/Users/chauchinyiu/development/PickPark/PickPark_Prefix.pch8612834496#1897"    cd /Users/chauchinyiu/development/PickPark    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-generated-files.hmap -I/Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-own-target-headers.hmap -I/Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-all-target-headers.hmap -iquote /Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/PickPark-project-headers.hmap -F/Users/chauchinyiu/development/PickPark/build/Debug-iphonesimulator -I/Users/chauchinyiu/development/PickPark/build/Debug-iphonesimulator/include -I/Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/DerivedSources/i386 -I/Users/chauchinyiu/development/PickPark/build/PickPark.build/Debug-iphonesimulator/PickPark.build/DerivedSources -c /Users/chauchinyiu/development/PickPark/PickPark_Prefix.pch -o /var/folders/ht/htkjuLauFJePAer-N6uP2U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PickPark_Prefix-fiffluzgxkhcqeawayrcftqqkmgd/PickPark_Prefix.pch.gch0#
+
 CTouch /Users/chauchinyiu/Desktop/PickPark/build/Debug-iphonesimulator/PickPark.app
 s327272116.403530
 e327272116.405487
@@ -1173,10 +1301,10 @@ x/Users/chauchinyiu/Desktop/PickPark/build/Debug-iphonesimulator/PickPark.app
 lSLF07#2@82"Touch /Users/chauchinyiu/Desktop/PickPark/build/Debug-iphonesimulator/PickPark.app327272116#327272116#0(0"0(0#0#0"8624742464#273"    cd /Users/chauchinyiu/Desktop/PickPark    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/chauchinyiu/Desktop/PickPark/build/Debug-iphonesimulator/PickPark.app0#
 
 CTouch /Users/chauchinyiu/development/PickPark/build/Debug-iphonesimulator/PickPark.app
-s327541576.362055
-e327541576.364160
+s327721997.329827
+e327721997.331877
 r1
 xTouch
 x/Users/chauchinyiu/development/PickPark/build/Debug-iphonesimulator/PickPark.app
-lSLF07#2@86"Touch /Users/chauchinyiu/development/PickPark/build/Debug-iphonesimulator/PickPark.app327541576#327541576#0(0"0(0#0#0"8620980384#343"    cd /Users/chauchinyiu/development/PickPark    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /usr/bin/touch -c /Users/chauchinyiu/development/PickPark/build/Debug-iphonesimulator/PickPark.app0#
+lSLF07#2@86"Touch /Users/chauchinyiu/development/PickPark/build/Debug-iphonesimulator/PickPark.app327721997#327721997#0(0"0(0#0#0"8620990816#343"    cd /Users/chauchinyiu/development/PickPark    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /usr/bin/touch -c /Users/chauchinyiu/development/PickPark/build/Debug-iphonesimulator/PickPark.app0#
 

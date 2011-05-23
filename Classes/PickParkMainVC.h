@@ -12,14 +12,19 @@
 #import "LocAnnotation.h"
 
 
-@interface PickParkMainVC : UIViewController <MKMapViewDelegate,ForwardGeocoderDelegate,CLLocationManagerDelegate>{
+@interface PickParkMainVC : UIViewController <MKMapViewDelegate,ForwardGeocoderDelegate,CLLocationManagerDelegate,UISearchDisplayDelegate, UISearchBarDelegate>{
 	MKMapView *_mapView;
 	CLLocationCoordinate2D _center;
 	ForwardGeocoder *_forwardGeocoder;
     LocAnnotation *_locAnnotation;
+	UISearchBar *_searchBar;
+	UISearchDisplayController *_searchController;
 	
 }
-@property (nonatomic,assign) IBOutlet MKMapView *mapView;
+@property (nonatomic,retain) IBOutlet MKMapView *mapView;
+@property (nonatomic,retain) IBOutlet UISearchBar *searchBar;
+@property (nonatomic,retain) IBOutlet UISearchDisplayController *searchController;
+
 -(IBAction) clickParkButton:(id)sender;
 -(IBAction) clickPickButton:(id)sender;
 @end

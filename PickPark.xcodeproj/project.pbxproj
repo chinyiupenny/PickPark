@@ -27,6 +27,7 @@
 		E58096301381C21C00981936 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E580962F1381C21C00981936 /* CoreLocation.framework */; };
 		E58096341381C22A00981936 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E58096331381C22A00981936 /* QuartzCore.framework */; };
 		E58096431381C2A900981936 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E58096421381C2A900981936 /* MapKit.framework */; };
+		E5981E5E138979CC008A2DD9 /* ParkObject.m in Sources */ = {isa = PBXBuildFile; fileRef = E5981E5D138979CC008A2DD9 /* ParkObject.m */; };
 		E5D9E5701385E38C0061FB83 /* storelocation.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = E5D9E56F1385E38C0061FB83 /* storelocation.xcdatamodel */; };
 /* End PBXBuildFile section */
 
@@ -66,6 +67,8 @@
 		E580962F1381C21C00981936 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		E58096331381C22A00981936 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		E58096421381C2A900981936 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		E5981E5C138979CC008A2DD9 /* ParkObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParkObject.h; sourceTree = "<group>"; };
+		E5981E5D138979CC008A2DD9 /* ParkObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParkObject.m; sourceTree = "<group>"; };
 		E5D9E56F1385E38C0061FB83 /* storelocation.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = storelocation.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -180,6 +183,8 @@
 		E5D9E56E1385E3570061FB83 /* CoreData */ = {
 			isa = PBXGroup;
 			children = (
+				E5981E5C138979CC008A2DD9 /* ParkObject.h */,
+				E5981E5D138979CC008A2DD9 /* ParkObject.m */,
 				E5D9E56F1385E38C0061FB83 /* storelocation.xcdatamodel */,
 			);
 			name = CoreData;
@@ -260,6 +265,7 @@
 				E52660E513818A4E0008DD41 /* StringUtility.m in Sources */,
 				E52660E613818A4E0008DD41 /* RadiusLayerView.m in Sources */,
 				E5D9E5701385E38C0061FB83 /* storelocation.xcdatamodel in Sources */,
+				E5981E5E138979CC008A2DD9 /* ParkObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

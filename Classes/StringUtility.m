@@ -91,42 +91,7 @@
 	}
 }
 
-/*
 
-+(NSString *)localizedCountryName:(NSString *)shortName
-{
-	if( [shortName isEqualToString:@"AT"] )
-		return SCLocalizedString(@"vehicle:country:values:A");
-	else if( [shortName isEqualToString:@"BE"] )
-		return SCLocalizedString(@"vehicle:country:values:B");
-	else if( [shortName isEqualToString:@"DE"] )
-		return SCLocalizedString(@"vehicle:country:values:D");
-	else if( [shortName isEqualToString:@"ES"] )
-		return SCLocalizedString(@"vehicle:country:values:E");
-	else if( [shortName isEqualToString:@"FR"] )
-		return SCLocalizedString(@"vehicle:country:values:F");
-	else if( [shortName isEqualToString:@"IT"] )
-		return SCLocalizedString(@"vehicle:country:values:I");
-	else if( [shortName isEqualToString:@"LU"] )
-		return SCLocalizedString(@"vehicle:country:values:L");
-	else if( [shortName isEqualToString:@"NL"] )
-		return SCLocalizedString(@"vehicle:country:values:NL");
-	else if( [shortName isEqualToString:@"PL"] )
-		return SCLocalizedString(@"vehicle:country:values:PL");
-	else if( [shortName isEqualToString:@"RU"] )
-		return SCLocalizedString(@"vehicle:country:values:RUS");
-	else if( [shortName isEqualToString:@"SE"] )
-		return SCLocalizedString(@"vehicle:country:values:S");
-	else if( [shortName isEqualToString:@"SI"] )
-		return SCLocalizedString(@"vehicle:country:values:SLO");
-	else if( [shortName isEqualToString:@"LV"] )
-		return SCLocalizedString(@"vehicle:country:values:LV");
-	else if( [shortName isEqualToString:@"LT"] )
-		return SCLocalizedString(@"vehicle:country:values:LT");
-	else
-		return SCLocalizedString(@"general:any");
-}
-*/
 +(NSString *)localizedCountryID:(NSString *)shortName
 {
 	if( [shortName isEqualToString:@"AT"] )

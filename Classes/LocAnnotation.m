@@ -15,9 +15,7 @@
 
 - (CLLocationCoordinate2D)coordinate;
 {
-	// only for debug ,location is nuernberg 
-//      coordinate.latitude = 49.4505200;
-//     coordinate.longitude = 11.0804800;
+
      return  coordinate; 
 }
 
